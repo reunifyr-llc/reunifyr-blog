@@ -1,0 +1,41 @@
+baseURL = "https://reunifyr.blog/"
+languageCode = "en-us"
+title = "Reunifyr Blog"
+theme = "PaperMod"
+paginate = 10
+
+[params]
+  env = "production"
+  description = "Private family reunion planning, legacy preservation, and family website tips from Reunifyr."
+  author = "Reunifyr"
+  defaultTheme = "light"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = false
+  ShowToc = false
+  images = ["images/og-default.png"]
+
+  [params.homeInfoParams]
+    Title = "Family Reunion Planning & Legacy Preservation"
+    Content = "Practical guides for organizing reunions, building private family websites, and preserving your family's story -- without social media."
+
+  [[params.socialIcons]]
+    name = "website"
+    url = "https://reunifyr.app"
+
+[params.assets]
+  favicon = "/favicon.ico"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = false
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
