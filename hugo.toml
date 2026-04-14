@@ -25,8 +25,39 @@ paginate = 10
     name = "website"
     url = "https://reunifyr.app"
 
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Archive"
+  url = "/archive/"
+  weight = 5
+
+[[menu.main]]
+  name = "Search"
+  url = "/search/"
+  weight = 10
+
+[[menu.main]]
+  name = "Reunifyr"
+  url = "https://reunifyr.app"
+  weight = 15
+  [menu.main.params]
+    external = true
+
 [params.assets]
   favicon = "/favicon.ico"
+
+[params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = ["title", "permalink", "summary", "content"]
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
