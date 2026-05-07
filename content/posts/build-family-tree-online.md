@@ -7,6 +7,11 @@ categories: ["Genealogy"]
 slug: "build-family-tree-online"
 ---
 
+<div class="reunifyr-post-cta">
+<p><strong>Build your family tree alongside reunions and photos.</strong> Reunifyr keeps your tree, family directory, and reunion records in one private site &mdash; not scattered across genealogy apps and social platforms.</p>
+<p><a class="reunifyr-btn reunifyr-btn-primary" href="https://reunifyr.app/Account/Signup" target="_blank" rel="noopener">Start free &rarr;</a></p>
+</div>
+
 A family tree is more than names. It is context, stories, and relationships across generations. The best online family trees are easy to start, easy to maintain, and easy to share with trusted family members.
 
 ## Start Small
@@ -35,4 +40,4 @@ Pure genealogy tools are great for research but weak for family engagement. They
 
 ---
 
-[Start your family tree with reunion and photo tools together at Reunifyr](https://reunifyr.app).
+[Start your family tree free at Reunifyr &rarr;](https://reunifyr.app/Account/Signup)

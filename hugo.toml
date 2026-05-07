@@ -70,7 +70,7 @@ paginate = 10
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
-      unsafe = false
+      unsafe = true
 
 [sitemap]
   changefreq = "weekly"
