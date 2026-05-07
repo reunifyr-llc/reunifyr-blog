@@ -1,6 +1,6 @@
 ---
 title: "Build a Family Tree Online That Lasts"
-date: 2026-04-13T11:00:00-05:00
+date: 2026-03-22T09:00:00-05:00
 description: "A family tree is more than names. Start small, add context, and keep it maintainable with the right tools."
 tags: ["family tree", "genealogy", "online family tree"]
 categories: ["Genealogy"]

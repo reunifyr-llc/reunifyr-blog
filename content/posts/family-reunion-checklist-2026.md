@@ -1,6 +1,6 @@
 ---
 title: "Family Reunion Checklist 2026: Plan Without Chaos"
-date: 2026-04-13T08:00:00-05:00
+date: 2026-02-18T09:00:00-05:00
 description: "A step-by-step reunion planning checklist that keeps organizers on track — from RSVPs to photo archives."
 tags: ["reunion planning", "family reunion", "checklist", "2026"]
 categories: ["Planning"]

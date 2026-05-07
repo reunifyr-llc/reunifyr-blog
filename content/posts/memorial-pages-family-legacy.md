@@ -1,6 +1,6 @@
 ---
 title: "Memorial Pages That Preserve Family Legacy"
-date: 2026-04-13T10:00:00-05:00
+date: 2026-04-10T09:00:00-05:00
 description: "How to create respectful, permanent memorial pages that your family controls -- not an ad-supported website."
 tags: ["memorial pages", "family legacy", "tribute", "obituary"]
 categories: ["Legacy"]

@@ -1,6 +1,6 @@
 ---
 title: "How to Create a Private Family Website (Without Social Media)"
-date: 2026-04-13T09:00:00-05:00
+date: 2026-03-04T09:00:00-05:00
 description: "Your family deserves a private online home that is not optimized for ads. Here is what to include and what questions to ask."
 tags: ["family website", "privacy", "private platform"]
 categories: ["Privacy"]

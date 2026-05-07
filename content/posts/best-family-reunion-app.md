@@ -1,6 +1,6 @@
 ---
 title: "Best Family Reunion App: What Actually Matters"
-date: 2026-04-13T12:00:00-05:00
+date: 2026-05-01T09:00:00-05:00
 description: "Comparing family reunion apps by what matters most: privacy, registration, payment tracking, and long-term family value."
 tags: ["reunion app", "family reunion app", "comparison", "best reunion app"]
 categories: ["Comparison"]
