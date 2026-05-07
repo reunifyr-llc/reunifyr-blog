@@ -27,6 +27,11 @@ Most reunion organizers juggle messages, spreadsheets, RSVPs, and photo collecti
 
 Use one platform for registration, directory, photos, and family records so your reunion work compounds each year. Each reunion builds on the last instead of starting from scratch.
 
+## Related reading
+
+- [Best Family Reunion App: What Actually Matters](/posts/best-family-reunion-app/)
+- [How to Create a Private Family Website (Without Social Media)](/posts/private-family-website/)
+
 ---
 
 Ready to simplify your next reunion? [Start your family setup at Reunifyr](https://reunifyr.app).

@@ -29,6 +29,11 @@ A good memorial page includes:
 
 Memorial pages should last. Choose a platform that stores your content permanently and does not delete inactive accounts. Your family should be able to return years later and find everything intact.
 
+## Related reading
+
+- [Build a Family Tree Online That Lasts](/posts/build-family-tree-online/)
+- [How to Create a Private Family Website (Without Social Media)](/posts/private-family-website/)
+
 ---
 
 [Build memorial pages in a private family platform at Reunifyr](https://reunifyr.app).

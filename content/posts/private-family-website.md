@@ -31,6 +31,11 @@ Social media is designed for engagement, not for families. Your reunion photos e
 
 A private family website puts your family first.
 
+## Related reading
+
+- [Best Family Reunion App: What Actually Matters](/posts/best-family-reunion-app/)
+- [Memorial Pages That Preserve Family Legacy](/posts/memorial-pages-family-legacy/)
+
 ---
 
 [Create a private family space at Reunifyr](https://reunifyr.app).

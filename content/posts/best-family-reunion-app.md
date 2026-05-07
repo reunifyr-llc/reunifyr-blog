@@ -29,6 +29,11 @@ Most families settle for tools that solve one problem but create others:
 
 The strongest approach combines reunion planning and long-term family legacy in one system. Registration, directory, photos, family tree, and memorial pages all live together. Each reunion builds on previous data instead of starting from scratch.
 
+## Related reading
+
+- [How to Create a Private Family Website (Without Social Media)](/posts/private-family-website/)
+- [Family Reunion Checklist 2026: Plan Without Chaos](/posts/family-reunion-checklist-2026/)
+
 ---
 
 [Compare with your current workflow at Reunifyr](https://reunifyr.app).

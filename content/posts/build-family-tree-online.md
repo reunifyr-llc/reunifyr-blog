@@ -28,6 +28,11 @@ A family tree that no one can update is a family tree that dies. Look for these 
 
 Pure genealogy tools are great for research but weak for family engagement. They do not handle reunion planning, event registration, or photo sharing. A platform that combines genealogy with reunion tools gives your family tree living context.
 
+## Related reading
+
+- [Memorial Pages That Preserve Family Legacy](/posts/memorial-pages-family-legacy/)
+- [How to Create a Private Family Website (Without Social Media)](/posts/private-family-website/)
+
 ---
 
 [Start your family tree with reunion and photo tools together at Reunifyr](https://reunifyr.app).
