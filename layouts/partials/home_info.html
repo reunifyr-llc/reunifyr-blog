@@ -8,10 +8,10 @@
         {{ $opts := dict "display" "block" }}
         {{ .Content | $.Page.RenderString $opts }}
         <p class="reunifyr-home-cta">
-            <a class="reunifyr-btn reunifyr-btn-primary" href="https://reunifyr.app/Account/Signup" target="_blank" rel="noopener">Start your private family site &rarr;</a>
+            <a class="reunifyr-btn reunifyr-btn-primary" href="https://reunifyr.app/Account/Signup" target="_blank" rel="noopener" data-cta="home-hero">See plans &rarr;</a>
             <a class="reunifyr-btn reunifyr-btn-ghost" href="https://reunifyr.app/Features" target="_blank" rel="noopener">See features</a>
         </p>
-        <p class="reunifyr-home-sub">No social media. Your data stays yours. Cancel anytime.</p>
+        <p class="reunifyr-home-sub">Plans from $29/mo. No social media. Your data stays yours. Cancel anytime.</p>
     </div>
     <footer class="entry-footer">
         {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}

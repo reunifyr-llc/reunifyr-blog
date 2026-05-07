@@ -9,7 +9,7 @@ slug: "best-family-reunion-app"
 
 <div class="reunifyr-post-cta">
 <p><strong>Looking for a private family reunion platform?</strong> Reunifyr combines RSVP, payments, photos, family tree, and memorial pages in one private site &mdash; no ads, no social media.</p>
-<p><a class="reunifyr-btn reunifyr-btn-primary" href="https://reunifyr.app/Account/Signup" target="_blank" rel="noopener">Start free &rarr;</a></p>
+<p><a class="reunifyr-btn reunifyr-btn-primary" href="https://reunifyr.app/Account/Signup" target="_blank" rel="noopener" data-cta="post-top">See plans &rarr;</a></p>
 </div>
 
 Choosing a family reunion app is not about picking the one with the most features. It is about finding the right combination of privacy, planning tools, and long-term value.
@@ -41,4 +41,4 @@ The strongest approach combines reunion planning and long-term family legacy in 
 
 ---
 
-[Start your private family site free at Reunifyr &rarr;](https://reunifyr.app/Account/Signup)
+[See plans and start your private family site at Reunifyr &rarr;](https://reunifyr.app/Account/Signup)

@@ -9,7 +9,7 @@ slug: "private-family-website"
 
 <div class="reunifyr-post-cta">
 <p><strong>Your family deserves a private home online.</strong> Reunifyr gives you a private family site with reunions, photos, family tree, and memorial pages &mdash; all owned by your family, not a social network.</p>
-<p><a class="reunifyr-btn reunifyr-btn-primary" href="https://reunifyr.app/Account/Signup" target="_blank" rel="noopener">Start free &rarr;</a></p>
+<p><a class="reunifyr-btn reunifyr-btn-primary" href="https://reunifyr.app/Account/Signup" target="_blank" rel="noopener" data-cta="post-top">See plans &rarr;</a></p>
 </div>
 
 Families need a private online home that is not optimized for ads. Facebook groups leak data. Shared Google docs get disorganized. Group chats lose history. A private family website gives you control.
@@ -43,4 +43,4 @@ A private family website puts your family first.
 
 ---
 
-[Create a private family space free at Reunifyr &rarr;](https://reunifyr.app/Account/Signup)
+[Create your private family space at Reunifyr &rarr;](https://reunifyr.app/Account/Signup)

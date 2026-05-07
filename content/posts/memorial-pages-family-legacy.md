@@ -9,7 +9,7 @@ slug: "memorial-pages-family-legacy"
 
 <div class="reunifyr-post-cta">
 <p><strong>Permanent memorial pages your family controls.</strong> Reunifyr stores tributes, photos, and stories on a private family site &mdash; not on an ad-supported obituary network.</p>
-<p><a class="reunifyr-btn reunifyr-btn-primary" href="https://reunifyr.app/Account/Signup" target="_blank" rel="noopener">Start free &rarr;</a></p>
+<p><a class="reunifyr-btn reunifyr-btn-primary" href="https://reunifyr.app/Account/Signup" target="_blank" rel="noopener" data-cta="post-top">See plans &rarr;</a></p>
 </div>
 
 A memorial page should be respectful, permanent, and easy for family members to contribute to. Too many families end up on ad-heavy memorial sites that monetize grief.

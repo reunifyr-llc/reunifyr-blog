@@ -2,5 +2,19 @@
 <script async src="https://plausible.io/js/pa-kPHlChgWYrTGmDKK5NdhV.js"></script>
 <script>
   window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
-  plausible.init()
+  plausible.init();
+
+  // Track Reunifyr signup CTA clicks as a custom Plausible goal: "Signup CTA Click".
+  // Configure a goal with name "Signup CTA Click" in the Plausible dashboard to see conversions.
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a');
+    if (!a) return;
+    var href = a.getAttribute('href') || '';
+    var location = a.getAttribute('data-cta') || '';
+    if (href.indexOf('reunifyr.app/Account/Signup') !== -1) {
+      try { plausible('Signup CTA Click', { props: { location: location || 'unknown', href: href } }); } catch (err) {}
+    } else if (href.indexOf('reunifyr.app') !== -1) {
+      try { plausible('Outbound: reunifyr.app', { props: { href: href } }); } catch (err) {}
+    }
+  }, true);
 </script>

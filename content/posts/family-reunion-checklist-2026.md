@@ -9,7 +9,7 @@ slug: "family-reunion-checklist-2026"
 
 <div class="reunifyr-post-cta">
 <p><strong>Plan your 2026 reunion in one place.</strong> Reunifyr handles RSVPs, meal selections, payments, and the family directory &mdash; so your checklist actually gets done.</p>
-<p><a class="reunifyr-btn reunifyr-btn-primary" href="https://reunifyr.app/Account/Signup" target="_blank" rel="noopener">Start free &rarr;</a></p>
+<p><a class="reunifyr-btn reunifyr-btn-primary" href="https://reunifyr.app/Account/Signup" target="_blank" rel="noopener" data-cta="post-top">See plans &rarr;</a></p>
 </div>
 
 Most reunion organizers juggle messages, spreadsheets, RSVPs, and photo collection in disconnected tools. It does not have to be that way.
@@ -39,4 +39,4 @@ Use one platform for registration, directory, photos, and family records so your
 
 ---
 
-Ready to simplify your next reunion? [Start your family setup free at Reunifyr &rarr;](https://reunifyr.app/Account/Signup)
+Ready to simplify your next reunion? [Start your family site at Reunifyr &rarr;](https://reunifyr.app/Account/Signup)
