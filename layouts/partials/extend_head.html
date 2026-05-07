@@ -1,20 +1,30 @@
-<!-- Privacy-friendly analytics by Plausible -->
-<script async src="https://plausible.io/js/pa-kPHlChgWYrTGmDKK5NdhV.js"></script>
+<!-- Azure Application Insights (reunifyr-insights-prod) -->
+<script src="https://js.monitor.azure.com/scripts/b/ai.3.gbl.min.js" crossorigin="anonymous"></script>
 <script>
-  window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
-  plausible.init();
+  (function () {
+    if (typeof Microsoft === 'undefined' || !Microsoft.ApplicationInsights) { return; }
+    var appInsights = new Microsoft.ApplicationInsights.ApplicationInsights({
+      config: {
+        connectionString: "InstrumentationKey=d1f314e2-499e-42f0-be93-bffeb1c2ae56;IngestionEndpoint=https://centralus-2.in.applicationinsights.azure.com/;LiveEndpoint=https://centralus.livediagnostics.monitor.azure.com/;ApplicationId=0c760ee7-a61e-4597-912f-fc8858291ca3",
+        enableAutoRouteTracking: true,
+        disableCookiesUsage: false
+      }
+    });
+    appInsights.loadAppInsights();
+    appInsights.trackPageView();
+    window.appInsights = appInsights;
 
-  // Track Reunifyr signup CTA clicks as a custom Plausible goal: "Signup CTA Click".
-  // Configure a goal with name "Signup CTA Click" in the Plausible dashboard to see conversions.
-  document.addEventListener('click', function (e) {
-    var a = e.target.closest && e.target.closest('a');
-    if (!a) return;
-    var href = a.getAttribute('href') || '';
-    var location = a.getAttribute('data-cta') || '';
-    if (href.indexOf('reunifyr.app/Account/Signup') !== -1) {
-      try { plausible('Signup CTA Click', { props: { location: location || 'unknown', href: href } }); } catch (err) {}
-    } else if (href.indexOf('reunifyr.app') !== -1) {
-      try { plausible('Outbound: reunifyr.app', { props: { href: href } }); } catch (err) {}
-    }
-  }, true);
+    // Custom event: "Signup CTA Click" — view in Azure Portal > reunifyr-insights-prod > Logs > customEvents
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest && e.target.closest('a');
+      if (!a) return;
+      var href = a.getAttribute('href') || '';
+      var loc = a.getAttribute('data-cta') || '';
+      if (href.indexOf('reunifyr.app/Account/Signup') !== -1) {
+        try { appInsights.trackEvent({ name: 'Signup CTA Click' }, { location: loc || 'unknown', href: href, page: document.location.pathname }); } catch (err) {}
+      } else if (href.indexOf('reunifyr.app') !== -1) {
+        try { appInsights.trackEvent({ name: 'Outbound reunifyr.app' }, { href: href, page: document.location.pathname }); } catch (err) {}
+      }
+    }, true);
+  })();
 </script>
